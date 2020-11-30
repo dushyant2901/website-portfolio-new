@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
-:root{--primary-color:#fdba74
+:root{--primary-color:#fdba74;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -38,7 +38,7 @@ color: var(--primary-color);
 .navigation{
     background-color:var(--primary-color);
 padding: 1rem;
-color: white;
+color: wheat;
 border-bottom-left-radius: 0.5rem;}
 .nav-brand{font-weight:500;}
 .navigation .link{color: white;}
@@ -59,4 +59,5 @@ border-bottom-left-radius: 0.5rem;}
 
 .footer{
     background-color:var(--primary-color);
+    padding: 1rem 1rem;
 }
