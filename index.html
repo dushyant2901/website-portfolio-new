@@ -22,52 +22,52 @@
 
 <h2>@containers</h2>
 <h3>@fluid container</h3>
-<div>The text in this will go to the full page with some margin </div>
+<div class="container">The text in this will go to the full page with some margin </div>
 <h3>@centre container</h3>
-<div>The text in this will go to some width and centre content</div>
+<div class="container-centre">The text in this will go to some width and centre content</div>
 <hr>
 
 <h2>@Links</h2>
-<a href=""> Primary link</a>
-<a href="">secondary link</a>
+<a class="link link-primary" href=""> Primary link</a>
+<a class="link link-secondary" href="">secondary link</a>
 <hr>
 
 <h2>@Lists</h2>
 <h3>@unordered list</h3>
 <p>We will remove bullets with the help of css</p>
-<ul>
+<ul class="list-unbulleted-list">
   <li>list one</li>
   <li>list two</li>
 </ul>
 
 <h3>@Inline list</h3>
 <p>instead of horizontal list we need vertical list</p>
-<ul>
-  <li>list one</li>
-  <li>list two </li>
+<ul class="list-unbulleted-list">
+  <li class="list-item-inline">list one</li>
+  <li class="list-item-inline">list two </li>
 </ul>
 
 <h3>@Reverse ordered list</h3>
 <p>This will contain projects in reverse numbering</p>
-<ol>
+<ol reversed>
   <li>list one</li>
 <li>list two</li>
 </ol>
 <hr>
  
 <h2>@nav</h2>
-<div>
+<div class="nav-brand">
 Navigation used on the top of the page to get to different pages</div>
-<nav>
+<nav class="navigation container">
     <ul>
-      <li>
-      <a href=""> first thing</a> 
+      <li class="list-item-inline">
+      <a class="link active-link" href=""> first thing</a> 
       </li>
-      <li>
-      <a href=""> second thing</a>
+      <li class="list-item-inline" >
+      <a class="link" href=""> second thing</a>
       </li>
-      <li>
-      <a href="http://">third thing</a> 
+      <li class="list-item-inline" >
+      <a  class="link" href="http://">third thing</a> 
       </li>
     </ul>
 </nav>
