@@ -47,18 +47,35 @@ color: var(--primary-color);
     color:var(--dark-gray);
     padding-top: 1rem;
 }
-
 .footer{
     background-color: var(--primary-color);
     padding: 1rem 1rem;
+    text-align: center;
+    color: white;
 }
-.navigation-container{
+.footer-heading{font-weight: bold;
+    font-size: large;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
+.navigation{
 background-color: var(--primary-color);
 padding: 1rem;
-color: wheat;
+color: white;
 border-bottom-left-radius: 0.5rem;}
-.nav-brand{font-weight:500;}
-.navigation .link{color: white;}
-.link-active-link{
-    font-weight:500;
+ .nav-brand{font-weight:500;}
+ .navigation .link{color:white;}
+.navigation .link-active{
+    font-weight:bold;
 }
+.nav-brand{
+    text-align: center;
+}
+.navigation ul{text-align: right;}
