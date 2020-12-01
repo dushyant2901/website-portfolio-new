@@ -35,16 +35,7 @@ color: var(--primary-color);
     display: inline;
     padding: 0rem 0.5rem;
 }
-.navigation{
-    background-color:var(--primary-color);
-padding: 1rem;
-color: wheat;
-border-bottom-left-radius: 0.5rem;}
-.nav-brand{font-weight:500;}
-.navigation .link{color: white;}
-.link-active-link{
-    font-weight:500;
-}
+
 
 .hero{padding:2rem;}
 .hero-image{
@@ -58,6 +49,16 @@ border-bottom-left-radius: 0.5rem;}
 }
 
 .footer{
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     padding: 1rem 1rem;
+}
+.navigation{
+    background-color:var(--primary-color);
+padding: 1rem;
+color: wheat;
+border-bottom-left-radius: 0.5rem;}
+.nav-brand{font-weight:500;}
+.navigation .link{color: white;}
+.link-active-link{
+    font-weight:500;
 }
