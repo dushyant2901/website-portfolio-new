@@ -2,7 +2,7 @@
 
 :root{--primary-color:#fdba74;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --dark-gray:  #D1D5DB;
 }
 hr{margin: 2rem 0rem;}
 
@@ -49,6 +49,9 @@ color: var(--primary-color);
 .hero-heading{text-align: center;
     color:var(--dark-gray);
     padding-top: 1rem;
+}
+.nameclass{
+    color: var(--primary-color);
 }
 .footer{
     background-color: var(--primary-color);
