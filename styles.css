@@ -5,6 +5,9 @@
     --dark-gray:  #D1D5DB;
 }
 hr{margin: 2rem 0rem;}
+.marginli{
+    padding: 2rem 1rem;
+}
 
 body{
 font-family: 'Quicksand', sans-serif;
@@ -95,4 +98,7 @@ border-bottom-left-radius: 0.5rem;}
 }
 .ow{
     background-color: var(--off-white);
+}
+.left h1{
+    text-align: left;
 }
