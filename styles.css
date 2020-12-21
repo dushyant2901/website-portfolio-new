@@ -116,4 +116,14 @@ border-bottom-left-radius: 0.5rem;}
         padding: 0.3rem;
         text-align: center;
     }
+ .hero-image{
+     max-width: 350px;
+ }
+ .navigation ul {
+    text-align: center;
+    padding: 0;
+}
+.navigation li{
+padding: 0rem 0.25rem;
+}
 }                                                                                                                                                                                                                                                                                                                                                                                                         
