@@ -79,8 +79,10 @@ color: var(--primary-color);
 background-color: var(--primary-color);
 padding: 1rem;
 color: white;
+
 border-bottom-left-radius: 0.5rem;}
- .nav-brand{font-weight:500;}
+ .nav-brand{font-weight:550;
+    font-size: 1.3rem;}
  .navigation .link{color:white;}
 .navigation .link-active{
     font-weight:bold;
@@ -88,7 +90,8 @@ border-bottom-left-radius: 0.5rem;}
 .nav-brand{
     text-align: center;
 }
-.navigation ul{text-align: right;}
+.navigation ul{text-align: right;
+font-size: 1.2rem;}
 
 .section{
     padding: 2rem;
