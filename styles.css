@@ -82,7 +82,14 @@ border-radius: 1.5rem;
 border-color:#fdba74 ;
 
 }
+.yyy{
+    border: 2px solid black;
+background-color:white;
+border-radius: 1.5rem;
+border-color:#fdba74 ;
+padding:1rem
 
+}
 
 
 .navigation{
