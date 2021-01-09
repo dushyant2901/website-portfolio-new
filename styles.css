@@ -14,6 +14,7 @@ font-family: 'Quicksand', sans-serif;
 margin: 0px;}
 
 .container {padding: 0rem 1rem;
+   
 }
 .container-centre 
 {max-width:600px ;
@@ -21,7 +22,8 @@ margin: auto;
 }
 .link{text-decoration: none;
     box-sizing: border-box;
-padding: 0.5rem 1rem;}
+padding: 0.5rem 1rem;
+margin: 0rem 0.3rem;}
 
 .link-primary{
     background-color:var(--primary-color);
@@ -30,8 +32,9 @@ border-radius: 0.5rem;}
 
 .link-secondary{
 color: var(--primary-color);
-    border: 1px solid var(--primary-color) ;
+    border: 1.5px solid var(--primary-color) ;
     border-radius: 0.5rem;
+    
 }
 
 .list-unbulleted-list{
@@ -71,6 +74,13 @@ color: var(--primary-color);
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.yy{
+    border: 2px solid black;
+background-color:white;
+border-radius: 1.5rem;
+border-color:#fdba74 ;
+
 }
 
 
@@ -118,6 +128,7 @@ font-size: 1.2rem;}
  .link-secondary{
         padding: 0.3rem;
         text-align: center;
+        
     }
  .hero-image{
      max-width: 350px;
