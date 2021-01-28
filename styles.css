@@ -7,6 +7,7 @@
 hr{margin: 2rem 0rem;}
 .marginli{
     padding: 2rem 1rem;
+    list-style-position: inside
 }
 
 body{
@@ -81,7 +82,9 @@ background-color:white;
 border-radius: 1.5rem;
 border-color:#fdba74 ;
 
-}
+
+} 
+
 .yyy{
     border: 2px solid black;
 background-color:white;
