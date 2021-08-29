@@ -44,6 +44,8 @@ color: var(--primary-color);
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+  
+    
 }
 
 
@@ -125,6 +127,7 @@ font-size: 1.2rem;}
 .left h1{
     text-align: left;
 }
+
 
 @media(max-width:600px){
     .container a{
