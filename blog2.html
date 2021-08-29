@@ -3,50 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSOC</title>
+    <title>Array</title>
 </head>
 <body>
-    <h1>GSOC-A Beginners Guide</h1>
-   <h2>What is Gsoc?</h2>
-   <p>"Google Summer of Code is program to promote open-source development. It is organized by Google every summer since last decade. Students contribute to open-source repositories and get paid by Google in return. It's a great way to spend summer vacation.</p>
-<h2>Eligibility Criteria</h2>
+    <h1>Array</h1>
+   <h2>WHAT IS AN ARRAY? </h2>
+   <p>An array is  one of the most fundamental data structures.It stores data in a sequential manner.</p>
+   <p> A pair of square brackets [] represents an array in JavaScript. All the elements in the array are comma(,) separated. </p>
+   <p>An array can hold values of different types.
+For example, you can have an array that stores the number and string, and boolean values.</p>
+<p>var person = ["John", "Wick", 32, 87];</p>
+<h2>Accessing elements of an array</h2>
 
-<ul>
-   <li> You must be at least 18 years of age</li>
-   <li> You must currently be a full or part-time student (or have been accepted for the fall term) at an accredited university as of the student acceptance date</li>
-   <li> You must be eligible to work in the country you will reside in during the program</li>
-   <li> You have not already been accepted as a Student in GSoC more than once
-   <li> You must reside in a country that is not currently embargoed by the United States. See Program Rules for more information.</li>
+<p> Each value is called an element specified by an index.</p>
+<p> We can access an element of the array by referring its index.The index in array starts from 0.[0] is the first element. [1] is the second element. </p>
 
+<h2>Creating JavaScript arrays</h2>
+<p>an array can be created by  two ways:</p>
+<ol>
+    <li>
+        1. Using an array literal</li>
+        <p>
 
-</ul>
-<h2>Stipend</h2>
-<p>Earlier it is used to be $3000 but for 2021 the stipend is reduced by half so you will get $1500.</p>
-<h2>Timeline For 2021</h2>
-<ul>
-    <li>30 JANUARY 2021: ORGANIZATION APPLICATIONS OPEN</li>
-<li>20 FEBRUARY 2021: ORGANIZATION APPLICATION DEADLINE</li>
-<li>10 MARCH 2021: ORGANIZATIONS ANNOUNCED</li>
-<li>29 MARCH 2021 -13 APRIL 2021: STUDENT APPLICATION PERIOD</li>
-<li>13 APRIL 2021-17 MAY 2021: APPLICATION REVIEW PERIOD</li>
-<li>17 MAY 2021: STUDENT PROJECTS ANNOUNCED  </li>
-<li>17 MAY 2021 -7 JUNE 2021: COMMUNITY BONDING</li>
-<li>7 JUNE 2021-16 AUGUST 2021: CODING</li>
-<li>12-16 JULY 2021: EVALUATIONS</li>
-<li>16 -23 AUGUST 2021: STUDENTS SUBMIT CODE AND FINAL EVALUATION</li>
-<li>23-30 AUGUST 2021: MENTORS SUBMIT FINAL EVALUATIONS</li>
-<li> AUGUST 2021: RESULTS ANNOUNCED</li>
-</ul>
-<h2>Things to remember</h2>
-<ul><li> Start Early- So that you are able to submit draft proposals, before you submit the final one. Generally the projects, require some industrial tools for project management hence getting in touch with project mentors early and discussing these details in the beginning and putting the details about the same in the proposal will help you out.
-    <li>Learn to minimize- You should know your priorities, don’t just run after all the projects,don’t aim for projects which you wont be able to handle.
-        <li>Your proposal must contain -
-            <li>A well written summary of your project</li>
-            <li>A detailed description of the problem, you want to solve</li>
-            <li>Description of any feature which you would like to add</li>
-            <li>Include any work experience or project you have worked on in the past</li>
-            <li>Write your vision for the project</li></ul>
-<p><b>Sources:</b> GSOc Site,Geeksforgeeks</p>
+            The easiest way to create an array is by using an array literal []. For example,
+ 
+        </p>
+        <p>const array1 = ["eat", "sleep","conquer","repeat"];</p>
+        <li>
+            2. Using the new keyword
 
+        </li>
+        <p>The another way to create an array is by using new kwyword. For example,
+        </p>
+        <p>const array2 = new Array("eat", "sleep","conquer","repeat");
+        </p>
+</ol>
+<h2>Getting The Length Of An Array</h2>
+<p>The length property returns the length of an array, which is the total number of elements contained in the array. Array length is always greater than the index of any of its element.</p>
+<p>For example: var myArray = [ 'hello', 'world', '!']; <br>
+    console.log(myArray.length);<br> 
+It will show output as 3 in console which is the actual length of this array</p>
 </body>
 </html>
