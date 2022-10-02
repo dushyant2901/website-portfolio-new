@@ -5,7 +5,10 @@
 
   --off-white: #f3f4f6;
   --dark-gray: #d1d5db;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.25);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
+/* Resets */
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +30,27 @@ p,
 h2 {
   margin-bottom: 1.35rem;
 }
+
+/* Animations */
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+/*  */
 .container {
   padding: 0rem 1rem;
 }
@@ -78,6 +102,7 @@ h2 {
   max-width: 450px;
   display: block;
   margin: auto;
+  animation: slideFromRight 1s ease-in-out 1;
 }
 .hero-heading {
   text-align: center;
@@ -86,6 +111,7 @@ h2 {
   letter-spacing: 1.5px;
   margin-bottom: 0;
   font-size: 1.55rem;
+  animation: slideFromLeft 1s ease-in-out 1;
 }
 .navigation {
   background-color: var(--primary-color);
