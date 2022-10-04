@@ -133,6 +133,9 @@ hr {
 .ow {
   background-color: var(--off-white);
 }
+.fw-500 {
+  font-weight: 300;
+}
 .nameclass {
   color: var(--primary-color);
 }
@@ -156,7 +159,14 @@ hr {
   text-align: center;
   margin-top: 3rem;
 }
-
+.social-icon {
+  height: 35px;
+  transition: var(--mainTransition);
+}
+.social-icon:hover {
+  height: 35px;
+  transform: translateY(-5px);
+}
 /*======================
 nav
  ===================*/
@@ -233,6 +243,7 @@ nav
 .left h1 {
   text-align: left;
 }
+
 /* =================
 sections
 ==================== */
@@ -301,6 +312,10 @@ sections
 /* ===============
 blog
 ================= */
+.blog-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .blog-section .container {
   width: 95%;
   max-width: 1320px;
@@ -312,6 +327,10 @@ blog
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
+}
+.blog p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .blog .link {
   text-align: center;
@@ -347,7 +366,7 @@ footer
 .footer ul {
   padding-inline-start: 0px;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: center;
 }
 
