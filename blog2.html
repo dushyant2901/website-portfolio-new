@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Array</title>
-</head>
-<body>
-    <h1>Array</h1>
-   <h2>WHAT IS AN ARRAY? </h2>
-   <p>An array is  one of the most fundamental data structures.It stores data in a sequential manner.</p>
-   <p> A pair of square brackets [] represents an array in JavaScript. All the elements in the array are comma(,) separated. </p>
-   <p>An array can hold values of different types.
-For example, you can have an array that stores the number and string, and boolean values.</p>
-<p>var person = ["John", "Wick", 32, 87];</p>
-<h2>Accessing elements of an array</h2>
-
-<p> Each value is called an element specified by an index.</p>
-<p> We can access an element of the array by referring its index.The index in array starts from 0.[0] is the first element. [1] is the second element. </p>
-
-<h2>Creating JavaScript arrays</h2>
-<p>an array can be created by  two ways:</p>
-<ol>
-    <li>
-        1. Using an array literal</li>
-        <p>
-
-            The easiest way to create an array is by using an array literal []. For example,
- 
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="blogpost-container">
+      <div class="blogpost-wrapper">
+        <h1 class="heading">Array</h1>
+        <h2 class="heading-light">WHAT IS AN ARRAY?</h2>
+        <p class="paragraph">
+          An array is one of the most fundamental data structures.It stores data
+          in a sequential manner.
         </p>
-        <p>const array1 = ["eat", "sleep","conquer","repeat"];</p>
-        <li>
-            2. Using the new keyword
+        <p class="paragraph">
+          A pair of square brackets [] represents an array in JavaScript. All
+          the elements in the array are comma(,) separated.
+        </p>
+        <p class="paragraph">
+          An array can hold values of different types. For example, you can have
+          an array that stores the number and string, and boolean values.
+        </p>
+        <p class="paragraph">var person = ["John", "Wick", 32, 87];</p>
+        <h2 class="heading-light">Accessing elements of an array</h2>
 
-        </li>
-        <p>The another way to create an array is by using new kwyword. For example,
+        <p class="paragraph">
+          Each value is called an element specified by an index.
         </p>
-        <p>const array2 = new Array("eat", "sleep","conquer","repeat");
+        <p class="paragraph">
+          We can access an element of the array by referring its index.The index
+          in array starts from 0.[0] is the first element. [1] is the second
+          element.
         </p>
-</ol>
-<h2>Getting The Length Of An Array</h2>
-<p>The length property returns the length of an array, which is the total number of elements contained in the array. Array length is always greater than the index of any of its element.</p>
-<p>For example: var myArray = [ 'hello', 'world', '!']; <br>
-    console.log(myArray.length);<br> 
-It will show output as 3 in console which is the actual length of this array</p>
-</body>
+
+        <h2 class="heading-light">Creating JavaScript arrays</h2>
+        <p class="paragraph">an array can be created by two ways:</p>
+        <ol>
+          <li>1. Using an array literal</li>
+          <p class="paragraph">
+            The easiest way to create an array is by using an array literal [].
+            For example,
+          </p>
+          <p class="paragraph">
+            const array1 = ["eat", "sleep","conquer","repeat"];
+          </p>
+          <li>2. Using the new keyword</li>
+          <p class="paragraph">
+            The another way to create an array is by using new kwyword. For
+            example,
+          </p>
+          <p class="paragraph">
+            const array2 = new Array("eat", "sleep","conquer","repeat");
+          </p>
+        </ol>
+        <h2 class="heading-light">Getting The Length Of An Array</h2>
+        <p class="paragraph">
+          The length property returns the length of an array, which is the total
+          number of elements contained in the array. Array length is always
+          greater than the index of any of its element.
+        </p>
+        <p class="paragraph">
+          For example: var myArray = [ 'hello', 'world', '!']; <br />
+          console.log(myArray.length);<br />
+          It will show output as 3 in console which is the actual length of this
+          array
+        </p>
+      </div>
+    </main>
+  </body>
 </html>

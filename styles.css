@@ -8,6 +8,7 @@ Css variables
 ================= */
 :root {
   --primary-color: #f87171;
+  --primary-shade: #fba1a1;
   --primary-light: #f9a8d4;
   --brown-shade: #7c3838;
   --off-white: #f3f4f6;
@@ -336,6 +337,69 @@ blog
   text-align: center;
   width: 100%;
   font-size: 1.25rem;
+}
+/* =================
+blogpost 
+==================== */
+.blogpost-container {
+  background: var(--primary-color);
+  display: grid;
+  place-items: center;
+  padding: 5rem;
+}
+.blogpost-wrapper {
+  background: white;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+.blogpost-wrapper .heading {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+.blogpost-wrapper .heading-light {
+  margin: 1rem 0;
+  color: var(--primary-shade);
+}
+.blogpost-wrapper ol li {
+  font-size: 1.1rem;
+}
+.blogpost-wrapper ol p {
+  font-size: 1.05rem;
+}
+.paragraph {
+  width: 75%;
+  letter-spacing: 1px;
+  max-width: 1120px;
+  margin: auto;
+  margin-top: 0.85rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+.thead-light {
+  font-size: 1.2rem;
+}
+tbody {
+  font-size: 1.1rem;
+}
+tbody tr {
+  margin-bottom: 1rem;
+}
+table {
+  margin: auto;
+}
+@media screen and (max-width: 678px) {
+  .blogpost-container {
+    padding: 2rem 3rem;
+  }
+  .paragraph {
+    width: 95%;
+    font-size: 1.1rem;
+  }
+  .thead-light {
+    font-size: 1rem;
+  }
 }
 /* ================
 footer
