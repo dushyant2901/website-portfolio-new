@@ -361,6 +361,9 @@ blogpost
   margin: 1rem 0;
   color: var(--primary-shade);
 }
+.blogpost-wrapper ol {
+  list-style: none;
+}
 .blogpost-wrapper ol li {
   font-size: 1.1rem;
 }
